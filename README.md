@@ -1,3 +1,3 @@
-# archlinux-guides
+# Arch Linux Guides and Commands
+Tento repozitář obsahuje základní příkazy a návody pro správu Arch Linuxu.
 
-Základní příkazy a návody pro Arch Linux
