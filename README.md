@@ -7,7 +7,7 @@ Tento repozitář obsahuje návody a průvodce pro různé aspekty Arch Linuxu, 
 - [Dunst - Nastavení notifikací](guides/dunst.md)
 - [i3 - Konfigurace správce oken](guides/i3.md)
 - [Automatizace aktualizací pomocí skriptů](guides/update-scripts.md)
-
+- [Automatické připojení LUKS disku po startu](guides/luks-mount.md)
 ## Požadavky
 
 - Arch Linux
