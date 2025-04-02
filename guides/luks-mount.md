@@ -9,7 +9,7 @@ a připojení LUKS šifrovaného disku při startu systému.
 lsblk -o NAME,SIZE,UUID
 ```
 
-Z kopírujte UUID oddílu, který chcete připojovat (např. /dev/sdb2).
+Zkopírujte UUID oddílu, který chcete připojovat (např. /dev/sdb2).
 
 ## 2. Vytvoření klíčového souboru
 
