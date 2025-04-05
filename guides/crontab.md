@@ -2,6 +2,31 @@
 
 `cron` umožňuje automatické spouštění příkazů nebo skriptů v nastavený čas.
 
+## 🛠️ Instalace cronu na Arch Linuxu
+
+Arch Linux ve výchozím stavu `cron` neobsahuje.
+Doporučený balíček je **`cronie`**, který poskytuje `crontab` i `cron` službu pod `systemd`.
+
+### Instalace:
+
+```bash
+sudo pacman -S cronie
+```
+
+### Aktivace služby:
+
+```bash
+sudo systemctl enable --now cronie
+```
+
+Zkontroluj, že běží:
+
+```bash
+systemctl status cronie
+```
+
+> Pokud služba neběží, `crontab` úlohy se vůbec nebudou spouštět.
+
 ---
 
 ## 🧭 Základní syntaxe
