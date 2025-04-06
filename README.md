@@ -7,4 +7,5 @@ Tento repozitář obsahuje návody a průvodce pro různé aspekty Arch Linuxu, 
 - [Automatizace aktualizací pomocí skriptů](guides/update-scripts.md)
 - [Automatické připojení LUKS disku po startu](guides/luks-mount.md)
 - [Automatické spouštění úloh pomocí Cron](guides/crontab.md)
+- [Wezterm terminál](/guides/wezterm.md)
 
