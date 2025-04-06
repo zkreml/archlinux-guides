@@ -1,0 +1,9 @@
+# === Crontab pro Arch Linux desktop ===
+# Všechny cesty jsou absolutní, výstup logován (pokud je potřeba)
+
+# 🔁 Denní záloha pomocí backup.sh ve 20:27
+27 20 * * * /home/archos/automatizace/skripty/backup.sh >> /home/archos/cron.log 2>&1
+
+# 🔔 Kontrola aktualizací každé 3 hodiny
+0 */3 * * * /home/archos/update_notifier.sh
+

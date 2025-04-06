@@ -1,0 +1,26 @@
+# 🕒 Crontab – naplánované úlohy
+
+Tato složka obsahuje naplánované úlohy (`crontab`) pro různé systémy.
+
+## 📂 Soubory
+
+- `arch_crontab` – aktuální `crontab` z desktopu s Arch Linuxem
+
+## 📥 Uložení crontabu
+
+Pro export aktuálních naplánovaných úloh z tohoto systému:
+
+```bash
+crontab -l > scripts/crontab/arch_crontab
+```
+
+## 🔁 Obnovení crontabu
+
+Pro nahrání zpět do systému:
+
+```bash
+crontab scripts/crontab/arch_crontab
+```
+
+> 💡 Tento soubor můžeš verzovat v Gitu jako zálohu nebo šablonu pro jiné stroje.
+
